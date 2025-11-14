@@ -38,7 +38,7 @@ st.markdown("""
 # ======================================================
 # CONFIG GEMINI (Con variables de entorno secure)
 # ======================================================
-GEMINI_API_KEY = os.getenv("AIzaSyA0oGgigHTC3EqaGBTTro62yUFrVWoS2J0")
+GEMINI_API_KEY = os.getenv("AIzaSyC9Lq7iHABeXYtNub2GwnOVW0Qmp9Tjrwc")
 if not GEMINI_API_KEY:
     st.error("❌ Falta la variable de entorno GEMINI_API_KEY")
     st.stop()
