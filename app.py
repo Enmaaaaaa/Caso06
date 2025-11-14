@@ -49,7 +49,7 @@ if not GEMINI_API_KEY:
     st.stop()
 
 genai.configure(api_key=GEMINI_API_KEY)
-modelo = genai.GenerativeModel("gemini-1.5-flash")
+modelo = genai.GenerativeModel("gemini-2.5-flash")
 
 # ======================================================
 # PROMPT Conversacional del Chatbot
